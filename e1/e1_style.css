@@ -34,6 +34,9 @@ a {
 .birdLogo {
 
 	/* Add properties below */
+	width: 30px;
+	height: auto;
+	margin-left: 40px;
 
 }
 
@@ -42,7 +45,7 @@ a {
 	width: 100%;
 
 	/* Add properties below */
-	
+	height: 300px;
 }
 
 
@@ -58,7 +61,7 @@ a {
 	padding: 3px;
 	
 	/* Add properties below */
-	
+	margin-left: 390px;
 }
 
 #profileStats ul li {
@@ -70,7 +73,7 @@ a {
 	/* Add a proper display property: We want the stats to have 
 	a height, but also appear side-by-side */
 
-	/*display: ;*/
+	display: inline-block;
 		
 }
 
@@ -78,7 +81,7 @@ a {
 	display: block;
 	
 	/* Add properties below */
-
+	font-size: 150%;
 }
 
 
@@ -89,7 +92,10 @@ a {
 	padding: 10px;
 	
 	/* Add properties below */
-
+	margin: 20px 0 0 50px;
+	min-height: 300px;
+	width: 300px;
+	float: left;
 }
 
 
@@ -100,6 +106,9 @@ a {
 	background-color: white;
 
 	/* Add properties below */
+	margin: 20px 0 0 40px;
+	float: left;
+	width: 600px;
 
 }
 
@@ -118,7 +127,7 @@ a {
 	font-weight: bold;
 
 	/* Add properties below */
-	
+	display: inline-block;
 
 }
 
@@ -129,40 +138,53 @@ a {
 	background-color: white;
 	
 	/* Add properties below */
-
+	min-height: 100px;
+	overflow: auto;
+	border-bottom: 1px solid grey;
 }
 
 /* For the div that holds the tweet icon */
 .tweetIconContainer {
 
 	/* Add properties below */
-
+	width: 80px;
+	/* display: inline-block; */
+	float: left;
 }
 
 .tweetIcon {
 
 	/* Add properties below */
-
+	margin: 10px 10px 0 10px;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
 }
 
 .tweetContent {
 	margin: 0px;
 
 	/* Add properties below */
-
+	display: inline-block;
+	width: 520px;
 }
 
 /* For pictures inside tweets (like the Robarts pic) */
 .tweetContentPicture {
 	/* Add properties below */
-	
+	max-width: 500px;
 }
 
 
 /* Style the big profile picture circle here. */
 #bigProfilePicCircle {
 	/* Add properties below */
-
+	border-radius: 50%;
+	position: absolute;
+	top: 230px;
+	left: 100px;
+	width: 200px;
+	border: solid white;
 }
 
 
